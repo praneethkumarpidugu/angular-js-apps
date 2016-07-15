@@ -1,13 +1,13 @@
 [
   {
    "id": 1,
-    "name": "Hardware Repair",
+    "name": "Hardware Repairs",
     "description": "Donec in viverra quam. Maecenas euismod a nulla sed lobortis. Aenean sit amet mauris sed dui dapibus feugiat",
     "image": "computer-icon.png"
   },
   {
    "id": 2,
-    "name": "Virus Removal",
+    "name": "Virus Removals",
     "description": "Donec in viverra quam. Maecenas euismod a nulla sed lobortis. Aenean sit amet mauris sed dui dapibus feugiat",
     "image": "computer-icon.png"
   },

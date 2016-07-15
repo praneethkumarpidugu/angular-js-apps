@@ -1,43 +1,14 @@
 <h2>Services</h2>
-<div class="row service">
-    <div class="col-md-2">
-        <img src="http://techguystaging.com/files/computer-icon.png">
+<div ng-repeat="service in services">
+    <div class="row service">
+        <div class="col-md-2">
+            <img src="http://techguystaging.com/files/{{ service.image }}">
 
-    </div>
-    <div class="col-md-10">
-        <h3>Hardware Repair</h3>
-        <p>Donec in viverra quam. Maecenas euismod a nulla sed lobortis. Aenean sit amet mauris sed dui dapibus feugiat nec
-            id sapien. Quisque finibus ultrices elementum. Aliquam et turpis sed dolor iaculis varius. Vestibulum eget massa et
-            neque ultrices vulputate lobortis non dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-            ac turpis egestas. Nunc mollis ullamcorper velit, nec fringilla lorem dictum vel.</p>
-        <a href="contact.html" class="btn btn-primary">Contact Us</a>
-    </div>
-</div>
-<div class="row service">
-    <div class="col-md-2">
-        <img src="http://techguystaging.com/files/computer-icon.png">
-
-    </div>
-    <div class="col-md-10">
-        <h3>Hardware Repair</h3>
-        <p>Donec in viverra quam. Maecenas euismod a nulla sed lobortis. Aenean sit amet mauris sed dui dapibus feugiat nec
-            id sapien. Quisque finibus ultrices elementum. Aliquam et turpis sed dolor iaculis varius. Vestibulum eget massa et
-            neque ultrices vulputate lobortis non dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-            ac turpis egestas. Nunc mollis ullamcorper velit, nec fringilla lorem dictum vel.</p>
-        <a href="contact.html" class="btn btn-primary">Contact Us</a>
-    </div>
-</div>
-<div class="row service">
-    <div class="col-md-2">
-        <img src="http://techguystaging.com/files/computer-icon.png">
-
-    </div>
-    <div class="col-md-10">
-        <h3>Hardware Repair</h3>
-        <p>Donec in viverra quam. Maecenas euismod a nulla sed lobortis. Aenean sit amet mauris sed dui dapibus feugiat nec
-            id sapien. Quisque finibus ultrices elementum. Aliquam et turpis sed dolor iaculis varius. Vestibulum eget massa et
-            neque ultrices vulputate lobortis non dolor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-            ac turpis egestas. Nunc mollis ullamcorper velit, nec fringilla lorem dictum vel.</p>
-        <a href="contact.html" class="btn btn-primary">Contact Us</a>
+        </div>
+        <div class="col-md-10">
+            <h3>{{ service.name }}</h3>
+            <p>{{ service.description }}</p>
+            <a href="contact.html" class="btn btn-primary">Contact Us</a>
+        </div>
     </div>
 </div>

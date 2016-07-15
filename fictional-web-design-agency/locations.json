@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "Lynn Location",
+    "street": "333 Walnut St",
+    "state": "Lynn MA, 01902",
+    "contact": "781-555-5555"
+  },
+  {
+    "id": 2,
+    "name": "Lynn Location",
+    "street": "333 Walnut St",
+    "state": "Lynn MA, 01902",
+    "contact": "781-555-5555"
+  },
+  {
+    "id": 3,
+    "name": "Lynn Location",
+    "street": "333 Walnut St",
+    "state": "Lynn MA, 01902",
+    "contact": "781-555-5555"
+  }
+
+]

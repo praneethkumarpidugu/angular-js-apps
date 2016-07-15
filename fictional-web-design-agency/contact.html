@@ -1,21 +1,11 @@
 <h2>Contact</h2>
 <p>Please email support@computersolutions.fake</p>
 <h3>Locations</h3>
+<div ng-repeat="location in locations">
 <ul class="location">
-    <li>Lynn Location</li>
-    <li>333 Walnut st</li>
-    <li>Lynn MA, 01922</li>
-    <li>781-555-5555</li>
+    <li>{{ location.name }}</li>
+    <li>{{ location.street }}</li>
+    <li>{{ location.state }}</li>
+    <li>{{ location.contact }}</li>
 </ul>
-<ul class="location">
-    <li>Lynn Location</li>
-    <li>333 Walnut st</li>
-    <li>Lynn MA, 01922</li>
-    <li>781-555-5555</li>
-</ul>
-<ul class="location">
-    <li>Lynn Location</li>
-    <li>333 Walnut st</li>
-    <li>Lynn MA, 01922</li>
-    <li>781-555-5555</li>
-</ul>
+</div>
